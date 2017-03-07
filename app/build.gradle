@@ -37,6 +37,10 @@ dependencies {
     compile 'com.android.support:design:25.0.0'
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    compile 'com.github.gfx.android.orma:orma:4.2.1'
+    annotationProcessor 'com.github.gfx.android.orma:orma-processor:4.2.1'
+
 }
 repositories {
     mavenCentral()
